@@ -44,3 +44,25 @@ commonItem(array1, array2);
 // }
 // array2[index] === obj.propertiesc
 
+// --------------------------Arrays-------------------------------------- //
+
+
+const strings=['a','b','c','d'];
+
+// strings.push('e');
+strings[2]
+
+// add
+strings.push('e') //0(1)
+
+// delete
+strings.pop(); //0(1)
+strings.pop(); //0(1)
+
+// add beginning
+strings.unshift('x'); //0(n)
+
+// middle
+strings.splice(2,0,'aleins') //0(n)
+console.log(strings)
+
