@@ -43,3 +43,4 @@ commonItem(array1, array2);
 //   x:true
 // }
 // array2[index] === obj.propertiesc
+
